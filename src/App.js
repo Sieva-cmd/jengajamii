@@ -2,6 +2,7 @@ import './App.css';
 import { Routes, Route, } from "react-router-dom";
 import Layout from './components/Layout/Layout';
 import HomePage from './pages/HomePage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
     return ( 
