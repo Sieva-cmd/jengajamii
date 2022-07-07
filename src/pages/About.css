@@ -1,5 +1,9 @@
+.container{
+  
+  padding: 0;
+}
 .about .row{
-  background-image: url('/public/images/many-children.jpg ');
+  background-image: url('/src/pages/images/many-children.jpg ');
   background-repeat: no-repeat;
   height: 500px;
   background-size: cover;
@@ -12,4 +16,39 @@
   font-size: 40px;
   padding-top: 250px;
 
+}
+.why{
+  margin-top:50px ;
+  
+}
+.why .row p{
+ font-weight: bold;
+ line-height: 30px;
+}
+.why .row .col-md-4 .line{
+  height: 3px;
+  width: 100px;
+  margin: 20px;
+  background-color: #EB9309;
+
+}
+.team{
+  margin-top: 30px;
+}
+.team .h2{
+  text-align: center;
+}
+.team .hr{
+  width: 100px;
+  height: 3px;
+  background-color: #EB9309;
+  margin-left: 45%;
+}
+.team .mel img, .luc img{
+border-radius: 50%;
+height: 200px;
+width: 200px;
+}
+.team .row .mel, .luc{
+  margin-left: 25%;
 }

@@ -4,6 +4,7 @@ import { Link} from 'react-router-dom'
 function Layout() {
   return(
     <div className="layout">
+      <div className="col-md-12 col-sm-12 col-lg-12">
       <nav>
         <ul>
           <li>
@@ -20,6 +21,7 @@ function Layout() {
           </li>
         </ul>
       </nav>
+      </div>
     </div>
   )
 }
