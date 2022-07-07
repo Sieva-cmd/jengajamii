@@ -1,0 +1,16 @@
+.layout nav{
+  /* background-color: #EB9309; */
+  height: 50px;
+}
+.layout li{
+  display: inline;
+  padding: 40px;
+  margin: 20px;
+}
+.layout li a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+
+}

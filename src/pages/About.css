@@ -1,0 +1,15 @@
+.about .row{
+  background-image: url('/public/images/many-children.jpg ');
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  margin-top: -20px;
+
+}
+.row h4{
+  color: #EB9309;
+  font-size: 40px;
+  padding-top: 250px;
+
+}
