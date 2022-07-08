@@ -2,7 +2,7 @@ import classes from './MainNavigation.module.css'
 import { Link } from 'react-router-dom'
 import logo from './assets/logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 const MainNavigation = () => {
     return (
 
@@ -78,7 +78,7 @@ const MainNavigation = () => {
         div className = { classes.right } >
         <
         li > < Link style = {
-            { textDecoration: 'none' }
+            { textDecoration: 'none', color: '#fff' }
         }
         to = '/log' > LOG IN < /Link> </li >
         <
