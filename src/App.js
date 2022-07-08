@@ -1,23 +1,22 @@
 import './App.css';
-import { Routes, Route, } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout/Layout';
-import HomePage from './pages/HomePage';
+import Home from './pages/HomePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
-    return ( 
-    <div className = "App" >
+    return (
+
+        <>
         <Layout >
-        <Routes >
-        <Route path = '/' element = {<HomePage />}/>
 
-        </Routes> 
-        </Layout>
+        </Layout> <Routes >
+        <Route path = '/' element = {< Home /> }/> </Routes> </>
 
 
 
 
-        </div>
+
     );
 }
 

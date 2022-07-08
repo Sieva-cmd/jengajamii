@@ -26,7 +26,7 @@
         display: flex;
         justify-content: right;
         position: absolute;
-        margin-left: 52rem;
+        margin-left: 40rem;
     }
     
     .right li {
@@ -37,7 +37,7 @@
         display: flex;
         justify-content: center;
         position: absolute;
-        margin-left: 10rem;
+        margin-left: 5rem;
     }
     
     .center li {
