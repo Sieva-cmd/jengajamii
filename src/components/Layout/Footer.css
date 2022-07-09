@@ -1,0 +1,17 @@
+.footer .row{
+  background-color: black;
+  color: white;
+}
+.footer .row img{
+  height: 100px;
+  width: 130px;
+  border-radius: 50%;
+}
+.footer ul{
+list-style: none;
+}
+form button{
+  background-color: #EB9309;
+  color: white;
+  font-weight: bold;
+}

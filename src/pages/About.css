@@ -1,5 +1,4 @@
-.container{
-  
+.container-fluid{
   padding: 0;
 }
 .about .row{
@@ -18,17 +17,19 @@
 
 }
 .why{
-  margin-top:50px ;
+  margin:50px 50px 0 50px ;
   
 }
-.why .row p{
+.why .row p, h2{
  font-weight: bold;
  line-height: 30px;
+ margin-right: 50px;
 }
 .why .row .col-md-4 .line{
   height: 3px;
   width: 100px;
   margin: 20px;
+  margin-left: 100px;
   background-color: #EB9309;
 
 }
@@ -40,22 +41,20 @@
   text-align: center;
 }
 .team .hr{
-  width: 100px;
+  width: 120px;
   height: 3px;
   background-color: #EB9309;
-  margin-left: 45%;
+  margin-left: 42%;
 }
 .team .mel img, .luc img{
 border-radius: 50%;
 height: 200px;
 width: 200px;
 }
-.team .row .mel, .luc{
-  margin-left: 25%;
-}
 .vmv{
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 50px;
+  margin-right: 50px;
 }
 .vmv h2{
   text-align: center;
@@ -64,6 +63,7 @@ width: 200px;
 .vmv .row{
   justify-content: space-evenly;
   font-weight: bold;
+  margin-top: 30px;
 }
 .vmv .row h6{
   font-size: large;
@@ -87,8 +87,14 @@ height: 250px;
 border-radius: 10px;
 }
 .test{
-  margin-top: 30px;
+  margin: 50px 50px 0px 50px;
   font-weight: bold;
+}
+.test .uline{
+  width: 140px;
+  height: 3px;
+  background-color: #EB9309;
+  margin-left: 43%;
 }
 .test h2{
   text-align: center;
@@ -102,4 +108,5 @@ border-radius: 10px;
 }
 .test .row{
   text-align: center;
+  margin-top: 30px;
 }

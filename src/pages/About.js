@@ -1,11 +1,9 @@
 import React from "react";
 import './About.css'
-import Layout from './Layout'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function About() {
   return(
-    <div className="container">
-      <Layout/>
+    <div className="container-fluid">
     <div className="about">
      <div className="row">
      <h4>About us</h4>
@@ -39,14 +37,15 @@ function About() {
           <h2>Our Team</h2>
           <div className="hr"></div>
         </div>
-        <div className="col-md-6 col-lg-6 col-sm-6">
+        <div className="col-md-2 col-sm-2 col-lg-2"></div>
+        <div className="col-md-4 col-lg-4 col-sm-4">
           <div className="mel">
             <img src={require('./images/mel.jpg')} alt="mel"/>
             <h5>Melody Chepkorir </h5>
             <h5>CEO/Founder</h5>
           </div>
           </div>
-          <div className="col-md-6 col-lg-6 col-sm-6">
+          <div className="col-md-4 col-lg-4 col-sm-4">
           <div className="luc">
             <img src={require('./images/mel.jpg')} alt="luc"/>
             <h5>Sieva Musyoka </h5>
@@ -54,6 +53,7 @@ function About() {
             <FontAwesomeIcon icon="fa-brands fa-twitter" />
           </div>
           </div>
+          <div className="col-md-2 col-sm-2 col-lg-2"></div>
         </div>
       </div>
       <div className="vmv">
@@ -96,6 +96,7 @@ function About() {
       </div>
       <div className="test">
         <h2>Testimonials</h2>
+        <div className="uline"></div>
         <div className="row">
           <div className="col-md-4 col-sm-4 col-lg-4">
             <p>"The students and the School
@@ -136,6 +137,8 @@ function About() {
         </div>
       </div>
     </div>
+
+    
   )
 }
 export default About
