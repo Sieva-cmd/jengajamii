@@ -3,6 +3,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { Navbar,Container,Nav,Button } from 'react-bootstrap';
 import hands from "./images/hands.jpg";
+import UncontrolledExample from "../components/carousel";
 
 const Home = () => {
   return (
@@ -106,7 +107,26 @@ const Home = () => {
             <div className="col-md-12 col-sm-12 col-lg-12">
               <h1>250 M </h1>
               <h5>people live with dissability</h5>
-              <button style={{color:"#fff",background:"#000",border:"1px solid black",borderRadius:"2px"}}>BECOME A VOLUNTEER</button>
+              <button
+                style={{
+                  color: "#fff",
+                  background: "#000",
+                  border: "1px solid black",
+                  borderRadius: "2px",
+                }}
+              >
+                BECOME A VOLUNTEER
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="testimonials">
+          <div className="row">
+            <div className="col-md-12 col-sm-12 col-lg-12">
+              <h1 style={{ color: "#eb9309" }}>Testimonials</h1>
+              <hr style={{ color: "#eb9309", height: "4px",width:"10%" ,marginLeft:"34rem",fontWeight:"bold"}} />
+              <h5>what people say about us</h5>
+              <UncontrolledExample />
             </div>
           </div>
         </div>

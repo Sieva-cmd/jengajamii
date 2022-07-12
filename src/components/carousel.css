@@ -1,0 +1,10 @@
+.rounded-circle {
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.d-block {
+    opacity: 0.2;
+    border: 1px solid rgb(133, 131, 131);
+}
