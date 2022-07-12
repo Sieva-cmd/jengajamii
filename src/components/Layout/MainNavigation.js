@@ -78,7 +78,7 @@ const MainNavigation = () => {
         div className = { classes.right } >
         <
         li > < Link style = {
-            { textDecoration: 'none', color: '#fff' }
+            { textDecoration: 'none', color: '#000' }
         }
         to = '/log' > LOG IN < /Link> </li >
         <
