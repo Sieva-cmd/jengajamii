@@ -5,11 +5,13 @@
                                     
                                     .hero {
                                         color: #eb9309;
-                                        margin-top: 10%;
+                                        margin-top: 20%;
+                                        margin-left: 4rem;
                                     }
                                     
                                     .section {
-                                        margin-top: 5%;
+                                        margin-top: 10%;
+                                        margin-left: 4rem;
                                     }
                                     
                                     .btnhero {
@@ -17,22 +19,8 @@
                                         border-radius: 8px;
                                         background-color: #eb9309;
                                         font-weight: bold;
-                                        margin-top: 5%;
-                                    }
-                                    
-                                    .herosection {
-                                        height: 20%;
-                                    }
-                                    /* .partone {
-                                        margin-left: 8rem;
-                                    }
-                                    
-                                    .parttwo {
-                                        position: absolute;
-                                        top: 120px;
-                                        right: 0px;
-                                        overflow: hidden;
-                                        z-index: 10;
+                                        margin-top: 10%;
+                                        margin-left: 4rem;
                                     }
                                     
                                     .blackcolor {
@@ -49,6 +37,7 @@
                                         z-index: -1;
                                         left: 5rem;
                                         bottom: 5rem;
+                                        margin-top: 15%;
                                     }
                                     
                                     .orangecolor {
@@ -118,11 +107,10 @@
                                         -ms-transform-origin: 100% 100%;
                                         -o-transform-origin: 100% 100%;
                                         transform-origin: 100% 100%;
-                                    } */
-                                    
-                                    .sectiontwo {
-                                        margin-top: 20rem;
                                     }
+                                    /* .sectiontwo {
+                                        margin-top: 10rem;
+                                    } */
                                     
                                     .rotatedImage {
                                         position: relative;
@@ -235,4 +223,8 @@
                                         text-align: center;
                                         margin-left: 38rem;
                                         padding: 1rem;
+                                    }
+                                    
+                                    .eraMillion {
+                                        -webkit-text-stroke: 1px #eb9309;
                                     }
