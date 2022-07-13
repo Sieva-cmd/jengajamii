@@ -6,5 +6,6 @@
 
 .d-block {
     opacity: 0.2;
-    border: 1px solid rgb(133, 131, 131);
+    border: 1px solid rgb(12, 12, 12);
+    box-shadow: 10px 10px 10px rgb(167, 165, 165);
 }

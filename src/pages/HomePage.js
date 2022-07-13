@@ -55,44 +55,28 @@ const Home = () => {
             <div className="card-body">
               <div className="card-group">
                 <div className="card cardItemOne">
-                  <img
-                    className="card-img-top"
-                    src={hands}
-                    alt="Card image cap"
-                  />
+                  <img className="card-img-top" src={hands} alt="Card cap" />
                   <div className="card-body">
                     <p class="card-text">DONATE TO SCHOOLS</p>
                   </div>
                 </div>
                 <hr style={{ color: "#eb9309", height: "1px" }} />
                 <div className="card cardItemTwo">
-                  <img
-                    className="card-img-top"
-                    src={hands}
-                    alt="Card image cap"
-                  />
+                  <img className="card-img-top" src={hands} alt="Card cap" />
                   <div className="card-body">
                     <p className="card-text">DONATE TO PRISONS</p>
                   </div>
                 </div>
                 <hr style={{ color: "#eb9309", height: "1px" }} />
                 <div className="card cardItemThree">
-                  <img
-                    className="card-img-top"
-                    src={hands}
-                    alt="Card image cap"
-                  />
+                  <img className="card-img-top" src={hands} alt="Card  cap" />
                   <div className="card-body">
                     <p className="card-text">DONATE TO MARGINALIZED GROUPS</p>
                   </div>
                 </div>
                 <hr style={{ color: "#eb9309", height: "1px" }} />
                 <div className="card cardItemFour">
-                  <img
-                    className="card-img-top"
-                    src={hands}
-                    alt="Card image cap"
-                  />
+                  <img className="card-img-top" src={hands} alt="Card  cap" />
                   <div className="card-body">
                     <p className="card-text">DONATE TO CHILDREN HOMES</p>
                   </div>
@@ -124,9 +108,55 @@ const Home = () => {
           <div className="row">
             <div className="col-md-12 col-sm-12 col-lg-12">
               <h1 style={{ color: "#eb9309" }}>Testimonials</h1>
-              <hr style={{ color: "#eb9309", height: "4px",width:"10%" ,marginLeft:"34rem",fontWeight:"bold"}} />
+              <hr
+                style={{
+                  color: "#eb9309",
+                  height: "4px",
+                  width: "10%",
+                  marginLeft: "28rem",
+                  fontWeight: "bold",
+                }}
+              />
               <h5>what people say about us</h5>
               <UncontrolledExample />
+            </div>
+          </div>
+        </div>
+        <div className="learn">
+          <div className="row">
+            <div className="col-md-3 col-sm-3 col-lg-3">
+              <div className="act">LISTEN</div>
+              <div className="act">LEARN</div>
+              <div className="act">ACT</div>
+            </div>
+
+            <div className="col-md-8 col-sm-8 col-lg-8">
+              <div className="listen">
+                <h3>LISTEN, ACT, LEARN AND REPEAT</h3>
+                <p>
+                  We learn through doing good to others ,though our act of
+                  kindnes <br />
+                  to children,to the aged and even the marginalised groups. Most{" "}
+                  <br />
+                  people on this country are living in extreme poverty and we as{" "}
+                  <br />
+                  Jenga Jamii are in the rise to meet them and provide the basic{" "}
+                  <br />
+                  needs . We collect donations from well wishers so that we may{" "}
+                  <br />
+                  continue with our mission.
+                </p>
+                <div className="sentence">
+                  <h5>45%</h5>
+                  <h5>$150k</h5>
+                  <h5>189</h5>
+                </div>
+                <div className="sentenceTwo">
+                  <p>kids need help</p>
+                  <p>Dollars raised</p>
+                  <p>Volunteers</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
