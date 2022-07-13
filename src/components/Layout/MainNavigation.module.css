@@ -1,80 +1,84 @@
-    .nav {
-        display: flex;
-    }
-    
-    .logo {
-        width: 5rem;
-        height: 5rem
-    }
-    
-    .brand {
-        color: rgb(235, 147, 9);
-        margin-top: 2%;
-    }
-    /* .nav ul {
+                        .nav {
+                            display: flex;
+                        }
+                        
+                        .header {
+                            z-index: -1;
+                        }
+                        
+                        .logo {
+                            width: 5rem;
+                            height: 5rem
+                        }
+                        
+                        .brand {
+                            color: rgb(235, 147, 9);
+                            margin-top: 2%;
+                        }
+                        /* .nav ul {
     display: flex;
     justify-content: space-evenly;
 } */
-    
-    .nav ul li {
-        text-decoration: none;
-        list-style: none;
-    }
-    
-    .right {
-        float: right;
-        display: flex;
-        justify-content: right;
-        position: absolute;
-        margin-left: 52rem;
-    }
-    
-    .right li {
-        margin: 2rem;
-    }
-    
-    .center {
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        margin-left: 10rem;
-    }
-    
-    .center li {
-        margin: 2rem;
-        text-decoration: none;
-    }
-    
-    .btnGreen {
-        border: 1px solid rgb(127, 180, 50);
-        border-radius: 8px;
-        background-color: rgb(127, 180, 50);
-        width: 120px;
-        color: white;
-    }
-    
-    @media (max-width: 768px) {
-        .center,
-        .right {
-            display: none;
-            position: absolute;
-            right: 0;
-            left: 0;
-            text-align: center;
-            padding: 16px 0;
-        }
-        .center,
-        .right li {
-            display: inline-block;
-            background-color: white;
-            transition: 0.3s ease;
-            color: black;
-            font-size: 11px;
-            margin-top: -15px;
-        }
-        .brand {
-            font-size: small;
-            display: block;
-            margin-top: 10%;
-        }
-    }
+                        
+                        .nav ul li {
+                            text-decoration: none;
+                            list-style: none;
+                        }
+                        
+                        .right {
+                            float: right;
+                            display: flex;
+                            justify-content: right;
+                            position: absolute;
+                            margin-left: 40rem;
+                        }
+                        
+                        .right li {
+                            margin: 2rem;
+                        }
+                        
+                        .center {
+                            display: flex;
+                            justify-content: center;
+                            position: absolute;
+                            margin-left: 5rem;
+                        }
+                        
+                        .center li {
+                            margin: 2rem;
+                            text-decoration: none;
+                        }
+                        
+                        .btnGreen {
+                            border: 1px solid rgb(127, 180, 50);
+                            border-radius: 8px;
+                            background-color: rgb(127, 180, 50);
+                            width: 120px;
+                            color: white;
+                        }
+                        
+                        @media (max-width: 768px) {
+                            .center,
+                            .right {
+                                display: none;
+                                position: absolute;
+                                right: 0;
+                                left: 0;
+                                text-align: center;
+                                padding: 16px 0;
+                            }
+                            .center,
+                            .right li {
+                                display: inline-block;
+                                background-color: white;
+                                transition: 0.3s ease;
+                                color: black;
+                                font-size: 11px;
+                                margin-top: -15px;
+                            }
+                            .brand {
+                                font-size: small;
+                                display: block;
+                                margin-top: 10%;
+                            }
+                        }

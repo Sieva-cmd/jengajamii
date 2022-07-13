@@ -1,0 +1,230 @@
+                                    .main {
+                                        color: black;
+                                        overflow-x: hidden;
+                                    }
+                                    
+                                    .hero {
+                                        color: #eb9309;
+                                        margin-top: 20%;
+                                        margin-left: 4rem;
+                                    }
+                                    
+                                    .section {
+                                        margin-top: 10%;
+                                        margin-left: 4rem;
+                                    }
+                                    
+                                    .btnhero {
+                                        border: 1px solid #eb9309;
+                                        border-radius: 8px;
+                                        background-color: #eb9309;
+                                        font-weight: bold;
+                                        margin-top: 10%;
+                                        margin-left: 4rem;
+                                    }
+                                    
+                                    .blackcolor {
+                                        position: relative;
+                                        border: 1px solid black;
+                                        background-color: black;
+                                        border-radius: 0 160px 160px 0;
+                                        height: 24rem;
+                                        width: 30 rem;
+                                        -webkit-transform: rotate(133deg);
+                                        -moz-transform: rotate(133deg);
+                                        -o-transform: rotate(133deg);
+                                        transform: rotate(133deg);
+                                        z-index: -1;
+                                        left: 5rem;
+                                        bottom: 5rem;
+                                        margin-top: 15%;
+                                    }
+                                    
+                                    .orangecolor {
+                                        position: relative;
+                                        border: 1px solid #eb9309;
+                                        background-color: #eb9309;
+                                        border-radius: 0 120px 120px 0;
+                                        height: 10rem;
+                                        width: 25rem;
+                                        -webkit-transform: rotate(133deg);
+                                        -moz-transform: rotate(133deg);
+                                        -o-transform: rotate(133deg);
+                                        transform: rotate(133deg);
+                                        z-index: -2;
+                                        left: 24rem;
+                                        bottom: 15rem
+                                    }
+                                    
+                                    .heart {
+                                        position: relative;
+                                        width: 100px;
+                                        height: 90px;
+                                        right: 1rem;
+                                    }
+                                    
+                                    .heart:before,
+                                    .heart:after {
+                                        background-image: url("images/hands.jpg");
+                                        background-size: cover;
+                                    }
+                                    
+                                    .heart:before {
+                                        position: absolute;
+                                        content: "";
+                                        left: 28rem;
+                                        bottom: 13rem;
+                                        width: 15rem;
+                                        height: 22rem;
+                                        border-radius: 150px 150px 0 0;
+                                        -webkit-transform: rotate(-45deg);
+                                        -moz-transform: rotate(-45deg);
+                                        -ms-transform: rotate(-deg);
+                                        -o-transform: rotate(-45deg);
+                                        transform: rotate(-45deg);
+                                        -webkit-transform-origin: 0 100%;
+                                        -moz-transform-origin: 0 100%;
+                                        -ms-transform-origin: 0 100%;
+                                        -o-transform-origin: 0 100%;
+                                        transform-origin: 0 100%;
+                                    }
+                                    
+                                    .heart:after {
+                                        position: absolute;
+                                        content: "";
+                                        left: 13rem;
+                                        bottom: 13rem;
+                                        width: 15rem;
+                                        height: 22rem;
+                                        border-radius: 150px 150px 0 0;
+                                        -webkit-transform: rotate(45deg);
+                                        -moz-transform: rotate(45deg);
+                                        -ms-transform: rotate(45deg);
+                                        -o-transform: rotate(45deg);
+                                        transform: rotate(45deg);
+                                        -webkit-transform-origin: 100% 100%;
+                                        -moz-transform-origin: 100% 100%;
+                                        -ms-transform-origin: 100% 100%;
+                                        -o-transform-origin: 100% 100%;
+                                        transform-origin: 100% 100%;
+                                    }
+                                    /* .sectiontwo {
+                                        margin-top: 10rem;
+                                    } */
+                                    
+                                    .rotatedImage {
+                                        position: relative;
+                                        /* border: 1px solid black; */
+                                        background-color: black;
+                                        border-radius: 0 160px 160px 0;
+                                        height: 10.5rem;
+                                        width: 35rem;
+                                        -webkit-transform: rotate(-30deg);
+                                        -moz-transform: rotate(-30deg);
+                                        -o-transform: rotate(-30deg);
+                                        transform: rotate(-30deg);
+                                        right: 10rem;
+                                        overflow-y: hidden;
+                                        background-image: url("images/hands.jpg");
+                                    }
+                                    
+                                    .fixedPart {
+                                        margin-right: -5rem;
+                                        position: relative;
+                                        bottom: 8rem;
+                                    }
+                                    
+                                    .rotatedOrange {
+                                        position: relative;
+                                        border: 1px solid #eb9309;
+                                        background-color: #eb9309;
+                                        border-radius: 0 160px 160px 0;
+                                        height: 5rem;
+                                        width: 25rem;
+                                        z-index: -2;
+                                        -webkit-transform: rotate(-30deg);
+                                        -moz-transform: rotate(-30deg);
+                                        -o-transform: rotate(-30deg);
+                                        transform: rotate(-30deg);
+                                        bottom: 2rem;
+                                        right: 3rem;
+                                    }
+                                    
+                                    .btnRotated {
+                                        border: 1px solid rgb(127, 180, 50);
+                                        border-radius: 8px;
+                                        background-color: rgb(127, 180, 50);
+                                        font-weight: bold;
+                                        margin-top: 5%;
+                                        width: 10rem;
+                                    }
+                                    
+                                    .card-group .card {
+                                        width: 3rem;
+                                        margin: 2rem;
+                                        border: 1px solid black;
+                                    }
+                                    
+                                    .cardsDiv {
+                                        z-index: 5;
+                                        position: relative;
+                                        bottom: 9rem;
+                                        margin: 2rem;
+                                    }
+                                    
+                                    hr {
+                                        font-weight: 2px solid #eb9309;
+                                    }
+                                    
+                                    .thirdSection {
+                                        text-align: center;
+                                        position: relative;
+                                        bottom: 7rem;
+                                    }
+                                    
+                                    .testimonials {
+                                        margin-left: 10rem;
+                                        margin-right: 10rem;
+                                        text-align: center;
+                                        margin-bottom: 5rem;
+                                        /* height: 30rem; */
+                                    }
+                                    
+                                    .act {
+                                        border: 1px solid black;
+                                        height: 5rem;
+                                        margin: 3rem;
+                                        text-align: left;
+                                        padding: 1rem;
+                                    }
+                                    
+                                    .learn {
+                                        position: relative;
+                                        left: 7rem;
+                                        margin-bottom: 5rem
+                                    }
+                                    
+                                    .listen {
+                                        border: 1px solid black;
+                                        width: 45rem;
+                                        height: 27rem;
+                                        padding: 4rem;
+                                    }
+                                    
+                                    .sentence,
+                                    .sentenceTwo {
+                                        display: flex;
+                                        justify-content: space-evenly;
+                                        margin-left: -10rem;
+                                    }
+                                    
+                                    .million {
+                                        display: flex;
+                                        text-align: center;
+                                        margin-left: 38rem;
+                                        padding: 1rem;
+                                    }
+                                    
+                                    .eraMillion {
+                                        -webkit-text-stroke: 1px #eb9309;
+                                    }
