@@ -1,12 +1,17 @@
 import React from "react";
 import './About.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { UilLinkedin } from '@iconscout/react-unicons'
+import { UilTwitter } from '@iconscout/react-unicons'
+const style = {
+  color:'bllue'
+}
 function About() {
   return(
     <div className="container-fluid">
     <div className="about">
      <div className="row">
-     <h4>About us</h4>
+     <h4 style={style}>About us</h4>
+     <div className="aline"></div>
      </div>
     </div>
     <div className="why">
@@ -43,6 +48,8 @@ function About() {
             <img src={require('./images/mel.jpg')} alt="mel"/>
             <h5>Melody Chepkorir </h5>
             <h5>CEO/Founder</h5>
+            <UilLinkedin/>
+            <UilTwitter/>
           </div>
           </div>
           <div className="col-md-4 col-lg-4 col-sm-4">
@@ -50,7 +57,8 @@ function About() {
             <img src={require('./images/mel.jpg')} alt="luc"/>
             <h5>Sieva Musyoka </h5>
             <h5>CEO/CoFounder</h5>
-            <FontAwesomeIcon icon="fa-brands fa-twitter" />
+            <UilLinkedin/>
+            <UilTwitter/>            
           </div>
           </div>
           <div className="col-md-2 col-sm-2 col-lg-2"></div>

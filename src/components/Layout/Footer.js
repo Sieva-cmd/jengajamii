@@ -38,7 +38,7 @@ function Footer() {
             <li>Join VOlunteer</li>
           </ul>
         </div>
-        <div className='col-md-3 col-lg-3 col-sm-3'>
+        <div className='col-md-3 col-lg-3 col-sm-3' id='sub'>
           <h5>News Letter</h5>
           <form>
             <input type="email" placeholder ="Email"></input>

@@ -4,7 +4,7 @@ import Layout from './Layout'
   return(
     <div>
       <Layout/>
-      Home Page
+  
     </div>
   )
  }
