@@ -7,24 +7,24 @@ import UncontrolledExample from "../components/carousel";
 
 const Home = () => {
   return (
-    <div className="container-fluid">
-      <div className="main">
-        <div className="herosection">
-          <div className="row">
-            <div className="col-md-6 col-sm-6 col-lg-6 partone">
-              <h5 className="hero">We believe that</h5>
-              <h1 className="section">
-                DO GOOD FOR <br /> OTHERS{" "}
-              </h1>
-              <button className="btnhero">JOIN THE JOURNEY</button>
-            </div>
-
-            <div className="col-md-6 col-sm-6 col-lg-6 parttwo">
-              <div className="blackcolor"></div>
-              <div className="orangecolor"></div>
-              <div className="heart"></div>
-            </div>
+    <div className="main">
+      <div className="container-fluid">
+        <div className="row">
+          {/* <div className="herosection"> */}
+          <div className="col-md-6 col-sm-6 col-lg-6">
+            <h5 className="hero">We believe that</h5>
+            <h1 className="section">
+              DO GOOD FOR <br /> OTHERS{" "}
+            </h1>
+            <button className="btnhero">JOIN THE JOURNEY</button>
           </div>
+
+          <div className="col-md-6 col-sm-6 col-lg-6">
+            <div className="blackcolor">I AM BLACK</div>
+            <div className="orangecolor">I AM ORANGE</div>
+            <div className="heart">I AM AN HEART</div>
+          </div>
+          {/* </div> */}
         </div>
 
         <div className="sectiontwo">
@@ -89,7 +89,11 @@ const Home = () => {
         <div className="thirdSection">
           <div className="row">
             <div className="col-md-12 col-sm-12 col-lg-12">
-              <h1>250 M </h1>
+              <div className="million">
+                <h1 className="eraMillion">250 </h1>
+                <h1 style={{ color: "#eb9309", marginLeft: "2rem" }}>M</h1>
+              </div>
+
               <h5>people live with dissability</h5>
               <button
                 style={{

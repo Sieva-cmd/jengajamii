@@ -5,33 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 const MainNavigation = () => {
   return (
-    //     <Navbar bg="light" variant="dark">
-    //     <Container>
-    //       <Navbar.Brand href="#home" style={{color:'#eb9309'}}>
-    //         <img
-    //           alt=""
-    //           src={logo}
-    //           width="40"
-    //           height="40"
-    //           className="d-inline-block align-top"
-    //         />{' '}
-    //       JENGA JAMII
-    //       </Navbar.Brand>
-    //       <Navbar.Collapse id="responsive-navbar-nav">
-    //       <Nav className="me-auto">
-    //             <Nav.Link style={{color:'#eb9309'}} to="/">HOME</Nav.Link>
-    //             <Nav.Link style={{color:'#000'}} to="/about">ABOUT</Nav.Link>
-    //             <Nav.Link style={{color:'#000'}} to="/donations">DONATIONS</Nav.Link>
-    //             <Nav.Link style={{color:'#000'}} to="/contact">CONTACT US</Nav.Link>
-    //       </Nav>
-
-    //       <Nav.Link href="#deets">LOG IN</Nav.Link>
-    //       <Nav.Link eventKey={2} href="#memes">
-    //         SIGN UP
-    //       </Nav.Link>
-    //       </Navbar.Collapse>
-    //     </Container>
-    //   </Navbar>
     <Container>
       <header className={classes.header}>
         <div>
@@ -49,7 +22,7 @@ const MainNavigation = () => {
                     {" "}
                     HOME{" "}
                   </Link>{" "}
-                </li>
+                </li>{" "}
                 <li>
                   {" "}
                   <Link
@@ -59,7 +32,7 @@ const MainNavigation = () => {
                     {" "}
                     ABOUT{" "}
                   </Link>{" "}
-                </li>
+                </li>{" "}
                 <li>
                   {" "}
                   <Link
@@ -69,7 +42,7 @@ const MainNavigation = () => {
                     {" "}
                     DONATIONS{" "}
                   </Link>{" "}
-                </li>
+                </li>{" "}
                 <li>
                   {" "}
                   <Link
@@ -79,7 +52,7 @@ const MainNavigation = () => {
                     {" "}
                     CONTACT US{" "}
                   </Link>{" "}
-                </li>
+                </li>{" "}
               </div>{" "}
               <div className={classes.right}>
                 <li>
@@ -91,19 +64,19 @@ const MainNavigation = () => {
                     {" "}
                     LOG IN{" "}
                   </Link>{" "}
-                </li>
+                </li>{" "}
                 <li>
                   {" "}
                   <Link style={{ textDecoration: "none" }} to="/sign">
                     {" "}
-                    <button className={classes.btnGreen}> SIGN UP </button>
+                    <button className={classes.btnGreen}> SIGN UP </button>{" "}
                   </Link>{" "}
                 </li>{" "}
-              </div>
+              </div>{" "}
             </ul>{" "}
           </nav>{" "}
         </div>{" "}
-      </header>
+      </header>{" "}
     </Container>
   );
 };

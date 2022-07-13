@@ -23,17 +23,16 @@
                                     .herosection {
                                         height: 20%;
                                     }
-                                    
-                                    .partone {
-                                        margin-left: 5rem;
+                                    /* .partone {
+                                        margin-left: 8rem;
                                     }
                                     
                                     .parttwo {
                                         position: absolute;
-                                        top: 100px;
+                                        top: 120px;
                                         right: 0px;
                                         overflow: hidden;
-                                        z-index: -2;
+                                        z-index: 10;
                                     }
                                     
                                     .blackcolor {
@@ -42,7 +41,7 @@
                                         background-color: black;
                                         border-radius: 0 160px 160px 0;
                                         height: 24rem;
-                                        width: 45rem;
+                                        width: 30 rem;
                                         -webkit-transform: rotate(133deg);
                                         -moz-transform: rotate(133deg);
                                         -o-transform: rotate(133deg);
@@ -58,7 +57,7 @@
                                         background-color: #eb9309;
                                         border-radius: 0 120px 120px 0;
                                         height: 10rem;
-                                        width: 35rem;
+                                        width: 25rem;
                                         -webkit-transform: rotate(133deg);
                                         -moz-transform: rotate(133deg);
                                         -o-transform: rotate(133deg);
@@ -88,7 +87,6 @@
                                         bottom: 13rem;
                                         width: 15rem;
                                         height: 22rem;
-                                        /* background: #eb9309; */
                                         border-radius: 150px 150px 0 0;
                                         -webkit-transform: rotate(-45deg);
                                         -moz-transform: rotate(-45deg);
@@ -109,7 +107,6 @@
                                         bottom: 13rem;
                                         width: 15rem;
                                         height: 22rem;
-                                        /* background: #eb9309; */
                                         border-radius: 150px 150px 0 0;
                                         -webkit-transform: rotate(45deg);
                                         -moz-transform: rotate(45deg);
@@ -121,7 +118,7 @@
                                         -ms-transform-origin: 100% 100%;
                                         -o-transform-origin: 100% 100%;
                                         transform-origin: 100% 100%;
-                                    }
+                                    } */
                                     
                                     .sectiontwo {
                                         margin-top: 20rem;
@@ -231,4 +228,11 @@
                                         display: flex;
                                         justify-content: space-evenly;
                                         margin-left: -10rem;
+                                    }
+                                    
+                                    .million {
+                                        display: flex;
+                                        text-align: center;
+                                        margin-left: 38rem;
+                                        padding: 1rem;
                                     }
