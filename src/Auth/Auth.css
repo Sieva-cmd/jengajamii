@@ -1,0 +1,48 @@
+.header{
+  color: #EB9309;
+  font-style: italic;
+  font-weight: bold;
+}
+.header img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.header .log{
+  display: flex;
+}
+form .row .col-md-6{
+  width: 50%;
+  border-radius: 20px;
+}
+input {
+  width: 75%;
+  border-radius: 20px;
+  margin: 20px; 
+  height: 40px;
+  padding-left: 20%;
+  font-weight: bold;
+}
+#row button{
+  width: 75%;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 20px;
+  height: 40px;
+}
+.acc{
+  color: black;
+  font-weight: normal;
+}
+.row .i{
+position: absolute;
+margin-left: 25px;
+margin-top: 25px;
+color: black;
+}
+.row .icon{
+  position: absolute;
+margin-left: -55px;
+margin-top: 25px;
+color: black;
+}
