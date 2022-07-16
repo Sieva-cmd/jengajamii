@@ -1,49 +1,66 @@
+import "./Volunteer.css";
+
 const Volunteer = () => {
   return (
-    <div>
-      <form>
-        <h3>Volunteer Form</h3>
-        <div className="mb-3">
-          <input
-            class="form-control"
-            type="text"
-            placeholder="Default input"
-            aria-label="Full Names"
-          />
-        </div>
-        <div class="mb-3 ">
-          <div class="col-sm-10">
-            <input
-              type="text"
-              readonly
-              class="form-control-plaintext"
-              id="staticEmail"
-              value="email@example.com"
-              placeholder="email"
-            />
-          </div>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-7">
+          <form className="formVolunteer">
+            <h3 style={{marginTop:"5rem",marginBottom:"5rem"}}>Volunteer Form</h3>
+            <div className="mb-3">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Full Names"
+                aria-label="Full Names"
+              />
+            </div>
+            <div class="mb-3 ">
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  readonly
+                  class="form-control-plaintext"
+                  id="staticEmail"
+                  value="Email"
+                  placeholder="email"
+                />
               </div>
-              <div className="mb-3">
-          <input
-            class="form-control"
-            type="number"
-            placeholder="Default input"
-            aria-label="Phone Number"
-          />
-        </div>
-         <div className="mb-3">
-          <input
-            class="form-control"
-            type="text"
-            placeholder="Default input"
-            aria-label="Country"
-          />
-        </div>
+            </div>
+            <div className="mb-3">
+              <input
+                class="form-control"
+                type="number"
+                placeholder="Phone Number"
+                aria-label="Phone Number"
+              />
+            </div>
+            <div className="mb-3">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="County"
+                aria-label="County"
+              />
+            </div>
 
-        <button type="submit" class="btn btn-primary">
-          Submit
-        </button>
-      </form>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              style={{
+                backgroundColor: "#eb9309",
+                width: "20rem",
+                border: "1px solid #eb9309",
+                borderRadius: "10px",
+                color: "#000",
+                fontWeight: "bold",
+              }}
+            >
+              Volunteer
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 };

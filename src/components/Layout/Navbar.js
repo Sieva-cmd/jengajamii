@@ -66,7 +66,10 @@ function Navbar() {
             </Link>{" "}
           </li>{" "}
           <li>
-            <Link style={{ textDecoration: "none", color: "#000" }} to="/donate">
+            <Link
+              style={{ textDecoration: "none", color: "#000" }}
+              to="/login"
+            >
               LOG IN{" "}
             </Link>{" "}
           </li>{" "}

@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import { Navbar,Container,Nav,Button } from 'react-bootstrap';
 import hands from "./images/hands.jpg";
 import UncontrolledExample from "../components/carousel";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -41,7 +42,7 @@ const Home = () => {
                 <br /> Jamii specialists without much of a stretch.{" "}
               </p>{" "}
               <h5> Join our Action and everyone can help </h5>{" "}
-              <button className="btnRotated"> Donate Now </button>{" "}
+              <Link to="/donate"><button className="btnRotated"> Donate Now </button></Link> 
             </div>{" "}
           </div>{" "}
         </div>{" "}
@@ -94,7 +95,7 @@ const Home = () => {
                 <h1 style={{ color: "#eb9309", marginLeft: "2rem" }}> M </h1>{" "}
               </div>
               <h5> people live with dissability </h5>{" "}
-              <button
+              <Link to="/volunteer"><button
                 style={{
                   color: "#fff",
                   background: "#000",
@@ -103,7 +104,8 @@ const Home = () => {
                 }}
               >
                 BECOME A VOLUNTEER{" "}
-              </button>{" "}
+              </button></Link>
+              
             </div>{" "}
           </div>{" "}
         </div>{" "}
