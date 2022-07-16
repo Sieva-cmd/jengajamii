@@ -18,8 +18,8 @@ const Home = () => {
             <button className="btnhero"> JOIN THE JOURNEY </button>{" "}
           </div>
           <div className="col-md-6 col-sm-6 col-lg-6" style={{ zIndex: "10" }}>
-            <div className="blackcolor"> I AM BLACK </div>{" "}
-            <div className="orangecolor"> I AM ORANGE </div>{" "}
+            <div className="blackcolor">  </div>{" "}
+            <div className="orangecolor">  </div>{" "}
             <div className="heart"> </div>{" "}
           </div>{" "}
         </div>
