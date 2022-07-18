@@ -8,6 +8,7 @@ import Footer from "./components/Layout/Footer";
 import Singup from "./Auth/Signup";
 import Donation from "./components/DonationForm"
 import Volunteer from "./components/Volunteer"
+import Login from "./Auth/Login";
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
         <Route path="/about" element={<About />} />{" "}
               <Route path="/sign" element={<Singup />} />{" "}
               <Route path="/volunteer" element={<Volunteer />} />
-              <Route path="/donate" element={ <Donation />} />
+        <Route path="/donate" element={<Donation />} />
+        <Route path="/login" element={<Login/>}/>
       </Routes>{" "}
       <Footer> </Footer>{" "}
     </div>

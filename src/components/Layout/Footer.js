@@ -1,7 +1,7 @@
 import './Footer.css'
 import React from 'react'
 // import classes from './MainNavigation.module.css'
-import logo from './assets/logo.png'
+
 
 function Footer() {
   return(
