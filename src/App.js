@@ -1,11 +1,12 @@
 import './App.css';
-import { Routes, Route, } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout/Layout';
 import HomePage from './pages/HomePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './pages/About';
 import Footer from './components/Layout/Footer';
 import Singup from './Auth/Signup';
+
 
 const App = () => {
     return ( 
