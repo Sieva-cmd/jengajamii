@@ -1,0 +1,29 @@
+                * {
+                    text-align: center;
+                    font-weight: bold;
+                }
+                
+                .col-md-7 {
+                    margin-left: 15rem;
+                }
+                
+                 ::placeholder {
+                    font-weight: bold;
+                }
+                
+                .submitBtn {
+                    background-color: rgb(235, 147, 9);
+                }
+                
+                .formDonation {
+                    /* border: 1px solid black; */
+                    margin-top: 5rem;
+                    margin-bottom: 5rem;
+                }
+                
+                .formDonation input {
+                    border-radius: 10px;
+                    border: 2px solid black;
+                    width: 40rem;
+                    margin-left: 5rem;
+                }

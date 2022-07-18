@@ -1,6 +1,6 @@
 import "./navbar.css";
 import { useState } from "react";
-import classes from "./MainNavigation.module.css";
+// import classes from "./MainNavigation.module.css";
 import { Link } from "react-router-dom";
 import logo from "./assets/logo.png";
 
@@ -41,43 +41,45 @@ function Navbar() {
         <ul>
           <li className="center">
             <Link style={{ textDecoration: "none", color: "#eb9309" }} to="/">
-              HOME
-            </Link>
-          </li>
+              HOME{" "}
+            </Link>{" "}
+          </li>{" "}
           <li className="center">
             <Link style={{ textDecoration: "none", color: "#000" }} to="/about">
-              ABOUT
-            </Link>
-          </li>
+              ABOUT{" "}
+            </Link>{" "}
+          </li>{" "}
           <li className="center">
             <Link
               style={{ textDecoration: "none", color: "#000" }}
               to="/donations"
             >
-              DONATIONS
-            </Link>
-          </li>
+              DONATIONS{" "}
+            </Link>{" "}
+          </li>{" "}
           <li className="center">
             <Link
               style={{ textDecoration: "none", color: "#000" }}
               to="/contact"
             >
-             
-              CONTACT US
-            </Link>
-          </li>
+              CONTACT US{" "}
+            </Link>{" "}
+          </li>{" "}
           <li>
-            <Link style={{ textDecoration: "none", color: "#000" }} to="/log">
-              LOG IN
-            </Link>
-          </li>
+            <Link
+              style={{ textDecoration: "none", color: "#000" }}
+              to="/login"
+            >
+              LOG IN{" "}
+            </Link>{" "}
+          </li>{" "}
           <li>
             <Link style={{ textDecoration: "none" }} to="/sign">
-              <button className={classes.btnGreen}> SIGN UP </button>
-            </Link>
-          </li>
-        </ul>
-      </div>
+              <button className="btnGreen"> SIGN UP </button>{" "}
+            </Link>{" "}
+          </li>{" "}
+        </ul>{" "}
+      </div>{" "}
     </nav>
   );
 }

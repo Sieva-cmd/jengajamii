@@ -1,0 +1,19 @@
+.formVolunteer {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+ ::placeholder {
+    font-weight: bold;
+}
+
+* {
+    text-align: center;
+    font-weight: bold;
+}
+
+.formVolunteer input {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40rem;
+}
