@@ -1,14 +1,14 @@
 import './Footer.css'
 import React from 'react'
-import classes from './MainNavigation.module.css'
-import logo from './assets/logo.png'
+// import classes from './MainNavigation.module.css'
+
 
 function Footer() {
   return(
     <div className='container-fluid'>
     <div className='footer'>
       <div className='row'>
-      <img src ={logo} alt="Logo" className={classes.logo} />
+      {/* <img src ={logo} alt="Logo" className={classes.logo} /> */}
       {/* <span><h5 className={classes.brand}>JENGA JAMII</h5></span>  */}
       </div>
       <div className='row'>

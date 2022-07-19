@@ -5,11 +5,13 @@
                                     
                                     .hero {
                                         color: #eb9309;
-                                        margin-top: 10%;
+                                        margin-top: 20%;
+                                        margin-left: 4rem;
                                     }
                                     
                                     .section {
-                                        margin-top: 5%;
+                                        margin-top: 10%;
+                                        margin-left: 4rem;
                                     }
                                     
                                     .btnhero {
@@ -17,23 +19,8 @@
                                         border-radius: 8px;
                                         background-color: #eb9309;
                                         font-weight: bold;
-                                        margin-top: 5%;
-                                    }
-                                    
-                                    .herosection {
-                                        height: 20%;
-                                    }
-                                    
-                                    .partone {
-                                        margin-left: 5rem;
-                                    }
-                                    
-                                    .parttwo {
-                                        position: absolute;
-                                        top: 100px;
-                                        right: 0px;
-                                        overflow: hidden;
-                                        z-index: -2;
+                                        margin-top: 10%;
+                                        margin-left: 4rem;
                                     }
                                     
                                     .blackcolor {
@@ -42,7 +29,7 @@
                                         background-color: black;
                                         border-radius: 0 160px 160px 0;
                                         height: 24rem;
-                                        width: 45rem;
+                                        width: 30 rem;
                                         -webkit-transform: rotate(133deg);
                                         -moz-transform: rotate(133deg);
                                         -o-transform: rotate(133deg);
@@ -50,6 +37,7 @@
                                         z-index: -1;
                                         left: 5rem;
                                         bottom: 5rem;
+                                        margin-top: 15%;
                                     }
                                     
                                     .orangecolor {
@@ -58,7 +46,7 @@
                                         background-color: #eb9309;
                                         border-radius: 0 120px 120px 0;
                                         height: 10rem;
-                                        width: 35rem;
+                                        width: 25rem;
                                         -webkit-transform: rotate(133deg);
                                         -moz-transform: rotate(133deg);
                                         -o-transform: rotate(133deg);
@@ -88,7 +76,6 @@
                                         bottom: 13rem;
                                         width: 15rem;
                                         height: 22rem;
-                                        /* background: #eb9309; */
                                         border-radius: 150px 150px 0 0;
                                         -webkit-transform: rotate(-45deg);
                                         -moz-transform: rotate(-45deg);
@@ -109,7 +96,6 @@
                                         bottom: 13rem;
                                         width: 15rem;
                                         height: 22rem;
-                                        /* background: #eb9309; */
                                         border-radius: 150px 150px 0 0;
                                         -webkit-transform: rotate(45deg);
                                         -moz-transform: rotate(45deg);
@@ -122,10 +108,9 @@
                                         -o-transform-origin: 100% 100%;
                                         transform-origin: 100% 100%;
                                     }
-                                    
-                                    .sectiontwo {
-                                        margin-top: 20rem;
-                                    }
+                                    /* .sectiontwo {
+                                        margin-top: 10rem;
+                                    } */
                                     
                                     .rotatedImage {
                                         position: relative;
@@ -231,4 +216,15 @@
                                         display: flex;
                                         justify-content: space-evenly;
                                         margin-left: -10rem;
+                                    }
+                                    
+                                    .million {
+                                        display: flex;
+                                        text-align: center;
+                                        margin-left: 38rem;
+                                        padding: 1rem;
+                                    }
+                                    
+                                    .eraMillion {
+                                        -webkit-text-stroke: 1px #eb9309;
                                     }
