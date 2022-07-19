@@ -53,7 +53,7 @@ const Home = () => {
                 <div className="card cardItemOne">
                   <img className="card-img-top" src={hands} alt="Card cap" />
                   <div className="card-body">
-                    <p class="card-text"> DONATE TO SCHOOLS </p>{" "}
+                    <p className="card-text"> DONATE TO SCHOOLS </p>{" "}
                   </div>{" "}
                 </div>{" "}
                 <hr

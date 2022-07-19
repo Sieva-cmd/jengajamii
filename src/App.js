@@ -9,6 +9,7 @@ import Singup from "./Auth/Signup";
 import Donation from "./components/DonationForm"
 import Volunteer from "./components/Volunteer"
 import Login from "./Auth/Login";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -17,10 +18,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />{" "}
         <Route path="/about" element={<About />} />{" "}
-              <Route path="/sign" element={<Singup />} />{" "}
-              <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/sign" element={<Singup />} />{" "}
+        <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/donate" element={<Donation />} />
-        <Route path="/login" element={<Login/>}/>
+        <Route path="/login" element={<Login />} />
+        <Route path="/contact"element={<Contact/>}/>
       </Routes>{" "}
       <Footer> </Footer>{" "}
     </div>
