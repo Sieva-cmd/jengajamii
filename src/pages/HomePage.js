@@ -11,8 +11,8 @@ const Home = () => {
     <div className="main">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-6 col-sm-6 col-lg-6">
-            <h5 className="hero"> We believe that </h5>{" "}
+          <div className="col-md-6 col-sm-6 col-lg-6 herocontentConatiner">
+            <h5 className="hero"> We believe that We Should</h5>{" "}
             <h1 className="section">
               DO GOOD FOR <br /> OTHERS{" "}
             </h1>{" "}
@@ -30,19 +30,19 @@ const Home = () => {
               <div className="rotatedImage"> </div>{" "}
               <div className="rotatedOrange"> </div>{" "}
             </div>{" "}
-            <div className="col-md-5 col-sm-5 col-lg-5 fixedPart">
-              <h5 style={{ color: "#eb9309" }}> About our Foundation </h5>{" "}
-              <h1> WHAT HAVE WE DONE WITH YOUR HELP </h1>{" "}
-              <p>
+            <div className="col-md-6 col-sm-6 col-lg-6 fixedPart" style={{textAlign:"left"}}>
+              <h5 style={{ color: "#eb9309",textAlign:"left" }}> About our Foundation </h5>{" "}
+              <h2 style={{textAlign:"left"}}> WHAT HAVE WE DONE WITH YOUR HELP </h2>{" "}
+              <p style={{textAlign:"left"}}>
                 This task is defined for people who are eager to give away their
-                portions of <br /> items and blood to the people in need.With
-                the help of this framework we <br /> can discover a contributor
-                for the donation classification and it becomes <br /> simpler to
-                make the association among give away / donor and also the Jenga{" "}
-                <br /> Jamii specialists without much of a stretch.{" "}
+                portions  items and blood to the people in need.With
+                the help of this framework we  can discover a contributor
+                for the donation classification and it becomes simpler to
+                make the association among give away donor and also the Jenga{" "}
+                Jamii specialists without much of a stretch.{" "}
               </p>{" "}
-              <h5> Join our Action and everyone can help </h5>{" "}
-              <Link to="/donate"><button className="btnRotated"> Donate Now </button></Link> 
+              <h5 style={{textAlign:"left"}}> Join our Action and everyone can help </h5>{" "}
+              <Link to="/donate" style={{textAlign:"left"}}><button className="btnRotated"> Donate Now </button></Link> 
             </div>{" "}
           </div>{" "}
         </div>{" "}
@@ -98,9 +98,12 @@ const Home = () => {
               <Link to="/volunteer"><button
                 style={{
                   color: "#fff",
-                  background: "#000",
+                  background: "rgb(127, 180, 50)",
                   border: "1px solid black",
-                  borderRadius: "2px",
+                  borderRadius: "5px",
+                  padding: "10px 20px",
+                  boxShadow: "0px 0px 5px grey",
+                  marginTop:"20px"
                 }}
               >
                 BECOME A VOLUNTEER{" "}
@@ -135,25 +138,25 @@ const Home = () => {
             </div>
             <div className="col-md-8 col-sm-8 col-lg-8">
               <div className="listen">
-                <h3> LISTEN, ACT, LEARN AND REPEAT </h3>{" "}
-                <p>
+                <h3 style={{textAlign:"left"}}> LISTEN, ACT, LEARN AND REPEAT </h3>{" "}
+                <p style={{textAlign:"left"}}>
                   We learn through doing good to others, though our act of
-                  kindnes <br />
+                  kindnes 
                   to children, to the aged and even the marginalised groups.Most{" "}
-                  <br />
+                 
                   people on this country are living in extreme poverty and we as{" "}
-                  <br />
+                 
                   Jenga Jamii are in the rise to meet them and provide the basic{" "}
-                  <br />
+                  
                   needs.We collect donations from well wishers so that we may{" "}
-                  <br />
+                  
                   continue with our mission.{" "}
                 </p>{" "}
                 <div className="sentence">
-                  <h5> 45 % </h5> <h5> $150k </h5> <h5> 189 </h5>{" "}
+                  <h5 style={{textAlign:"left"}}> 45 % </h5> <h5> $150k </h5> <h5> 189 </h5>{" "}
                 </div>{" "}
-                <div className="sentenceTwo">
-                  <p> kids need help </p> <p> Dollars raised </p>{" "}
+                <div className="sentenceTwo" style={{textAlign:"left"}}>
+                  <p > kids need help </p> <p> Dollars raised </p>{" "}
                   <p> Volunteers </p>{" "}
                 </div>{" "}
               </div>{" "}
