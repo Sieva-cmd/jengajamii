@@ -67,6 +67,8 @@
                                     .heart:after {
                                         background-image: url("images/hands.jpg");
                                         background-size: cover;
+                                        background-repeat: no-repeat;
+                                        position: center;
                                     }
                                     
                                     .heart:before {
