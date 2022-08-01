@@ -10,7 +10,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         {" "}
         {/* <div className='d-block w-100' style={{height:"30rem"}}></div> */}
-        <img className="d-block w-100" src={image} alt="First slide" />
+        <img className="d-block w-100" src={image} alt="First slide"/>
         <Carousel.Caption>
           <img src={person1} className="rounded-circle" alt="CinqueTerre" />
           <p style={{ color: "#000" }}>

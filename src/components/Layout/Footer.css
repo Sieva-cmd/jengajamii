@@ -10,10 +10,12 @@
 .footer ul{
 list-style: none;
 }
-form button{
+#sub button{
   background-color: #EB9309;
   color: white;
   font-weight: bold;
+  width: 30%;
+  margin-left: 4px;
 }
 #sub input{
   width: 50%;

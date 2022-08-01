@@ -42,7 +42,7 @@ function Footer() {
           <h5>News Letter</h5>
           <form>
             <input type="email" placeholder ="Email"></input>
-            <button type='submit'>Subscribe</button>
+            <button className='button' type='submit'>Subscribe</button>
           </form>
         </div>
       </div>
