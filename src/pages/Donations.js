@@ -1,10 +1,8 @@
 import React from "react";
-import Layout from './Layout'
 function Donations() {
   return(
     <div>
-      <Layout/>
-      Hello Donations
+    <h1>This is the donation PAge</h1>
     </div>
   )
 }
