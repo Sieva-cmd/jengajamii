@@ -3,8 +3,10 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { Navbar,Container,Nav,Button } from 'react-bootstrap';
 import hands from "./images/hands.jpg";
+import blood from "./images/blood.jpg";
 import UncontrolledExample from "../components/carousel";
 import { Link } from "react-router-dom";
+
 
 const Home = () => {
   return (
@@ -46,6 +48,7 @@ const Home = () => {
             </div>{" "}
           </div>{" "}
         </div>{" "}
+      
         <div className="cardsDiv">
           <div className="card" style={{ height: "25rem" }}>
             <div className="card-body">
@@ -112,6 +115,27 @@ const Home = () => {
             </div>{" "}
           </div>{" "}
         </div>{" "}
+        <section className="Blood">
+          <div className="row">
+            {/* <div className="col-md-2 col-sm-2 col-lg-2"></div> */}
+            <div className="col-sm-6 col-md-6 col-lg-6">
+              <h1 >Join our Blood Donation Group. Donate Today,<br/> to save a life</h1>
+              <Link to="/BloodDform"><button className="Donatebutton"   style={{
+                  color: "#fff",
+                  background: "rgb(127, 180, 50)",
+                  border: "1px solid black",
+                  borderRadius: "5px",
+                  padding: "10px 20px",
+                  boxShadow: "0px 0px 5px grey",
+                  marginTop:"50px"
+                }}>Donate</button></Link>
+            </div>
+            <div className="col-sm-6 col-md-6 col-lg-6">
+              <img src={ blood} alt="melo" style={{width:"500px", height:"400px"}}/>
+            </div>
+            {/* <div className="col-md-2 col-sm-2 col-lg-2"></div> */}
+          </div>
+        </section>
         <div className="testimonials">
           <div className="row">
             <div className="col-md-12 col-sm-12 col-lg-12">
@@ -125,7 +149,7 @@ const Home = () => {
                   fontWeight: "bold",
                 }}
               />{" "}
-              <h5> what people say about us </h5> <UncontrolledExample />
+              <h5> what peop le say about us </h5> <UncontrolledExample />
             </div>{" "}
           </div>{" "}
         </div>{" "}

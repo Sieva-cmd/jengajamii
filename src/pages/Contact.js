@@ -7,7 +7,6 @@ function Contact() {
   return(
     <div className="container" id="contact">
       <div className="row">
-        <div className="col-md-4 col-lg-4 col-sm-4"></div>
         <div className="col-md-8 col-sm-8 col-lg-8">
         <h3>Want a chat with us? <br /> Send us a Message</h3>
           <p>Use The Contact Form To Inquire About Volunteer Positions<br/> Or Regarding Any Questions Or Concerns.</p>

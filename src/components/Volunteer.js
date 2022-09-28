@@ -18,11 +18,8 @@ const Volunteer = () => {
             <div class="mb-3 ">
               <div class="col-sm-10">
                 <input
-                  type="text"
-                  readonly
-                  class="form-control-plaintext"
+                  type="email"
                   id="staticEmail"
-                  value="Email"
                   placeholder="email"
                 />
               </div>

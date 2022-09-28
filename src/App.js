@@ -11,6 +11,7 @@ import DonationForm from "./components/DonationForm"
 import Volunteer from "./components/Volunteer"
 import Login from "./Auth/Login";
 import Contact from "./pages/Contact";
+import BloodDform from "./components/BloodDform";
 
 
 const App = () => {
@@ -25,7 +26,8 @@ const App = () => {
         <Route path="/donations" element={<Donations />} />
         <Route path="/donate" element = {<DonationForm/>}/>
         <Route path="/login" element={<Login />} />
-        <Route path="/contact"element={<Contact/>}/>
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/BloodDform" element={<BloodDform/>}/>
       </Routes>{" "}
       <Footer> </Footer>{" "}
     </div>
