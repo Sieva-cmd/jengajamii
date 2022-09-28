@@ -2,8 +2,11 @@ import "./HomePage.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { Navbar,Container,Nav,Button } from 'react-bootstrap';
-import hands from "./images/hands.jpg";
+import chome from "./images/chome.jpg";
 import blood from "./images/blood.jpg";
+import pwd from "./images/pwd.jpg";
+import school from "./images/school.jpg";
+import prison from "./images/prison.jpg";
 import UncontrolledExample from "../components/carousel";
 import { Link } from "react-router-dom";
 
@@ -54,7 +57,7 @@ const Home = () => {
             <div className="card-body">
               <div className="card-group">
                 <div className="card cardItemOne">
-                  <img className="card-img-top" src={hands} alt="Card cap" />
+                  <img className="card-img-top" src={school} alt="Card cap" />
                   <div className="card-body">
                     <p className="card-text"> DONATE TO SCHOOLS </p>{" "}
                   </div>{" "}
@@ -66,21 +69,21 @@ const Home = () => {
                   }}
                 />
                 <div className="card cardItemTwo">
-                  <img className="card-img-top" src={hands} alt="Card cap" />
+                  <img className="card-img-top" src={prison} alt="Card cap" />
                   <div className="card-body">
                     <p className="card-text"> DONATE TO PRISONS </p>{" "}
                   </div>{" "}
                 </div>{" "}
                 <hr style={{ color: "#eb9309", height: "1px" }} />{" "}
                 <div className="card cardItemThree">
-                  <img className="card-img-top" src={hands} alt="Card  cap" />
+                  <img className="card-img-top" src={pwd} alt="Card  cap" />
                   <div className="card-body">
-                    <p className="card-text"> DONATE TO MARGINALIZED GROUPS </p>{" "}
+                    <p className="card-text"> DONATE TO PEOPLE LIVING WITH DISSABILITY </p>{" "}
                   </div>{" "}
                 </div>{" "}
                 <hr style={{ color: "#eb9309", height: "1px" }} />{" "}
                 <div className="card cardItemFour">
-                  <img className="card-img-top" src={hands} alt="Card  cap" />
+                  <img className="card-img-top" src={chome} alt="Card  cap" />
                   <div className="card-body">
                     <p className="card-text"> DONATE TO CHILDREN HOMES </p>{" "}
                   </div>{" "}
