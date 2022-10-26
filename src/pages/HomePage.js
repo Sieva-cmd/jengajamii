@@ -2,9 +2,14 @@ import "./HomePage.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { Navbar,Container,Nav,Button } from 'react-bootstrap';
-import hands from "./images/hands.jpg";
+import chome from "./images/chome.jpg";
+import blood from "./images/blood.jpg";
+import pwd from "./images/pwd.jpg";
+import school from "./images/school.jpg";
+import prison from "./images/prison.jpg";
 import UncontrolledExample from "../components/carousel";
 import { Link } from "react-router-dom";
+
 
 const Home = () => {
   return (
@@ -46,12 +51,13 @@ const Home = () => {
             </div>{" "}
           </div>{" "}
         </div>{" "}
+      
         <div className="cardsDiv">
           <div className="card" style={{ height: "25rem" }}>
             <div className="card-body">
               <div className="card-group">
                 <div className="card cardItemOne">
-                  <img className="card-img-top" src={hands} alt="Card cap" />
+                  <img className="card-img-top" src={school} alt="Card cap" />
                   <div className="card-body">
                     <p className="card-text"> DONATE TO SCHOOLS </p>{" "}
                   </div>{" "}
@@ -63,21 +69,21 @@ const Home = () => {
                   }}
                 />
                 <div className="card cardItemTwo">
-                  <img className="card-img-top" src={hands} alt="Card cap" />
+                  <img className="card-img-top" src={prison} alt="Card cap" />
                   <div className="card-body">
                     <p className="card-text"> DONATE TO PRISONS </p>{" "}
                   </div>{" "}
                 </div>{" "}
                 <hr style={{ color: "#eb9309", height: "1px" }} />{" "}
                 <div className="card cardItemThree">
-                  <img className="card-img-top" src={hands} alt="Card  cap" />
+                  <img className="card-img-top" src={pwd} alt="Card  cap" />
                   <div className="card-body">
-                    <p className="card-text"> DONATE TO MARGINALIZED GROUPS </p>{" "}
+                    <p className="card-text"> DONATE TO PEOPLE LIVING WITH DISSABILITY </p>{" "}
                   </div>{" "}
                 </div>{" "}
                 <hr style={{ color: "#eb9309", height: "1px" }} />{" "}
                 <div className="card cardItemFour">
-                  <img className="card-img-top" src={hands} alt="Card  cap" />
+                  <img className="card-img-top" src={chome} alt="Card  cap" />
                   <div className="card-body">
                     <p className="card-text"> DONATE TO CHILDREN HOMES </p>{" "}
                   </div>{" "}
@@ -112,6 +118,27 @@ const Home = () => {
             </div>{" "}
           </div>{" "}
         </div>{" "}
+        <section className="Blood">
+          <div className="row">
+            {/* <div className="col-md-2 col-sm-2 col-lg-2"></div> */}
+            <div className="col-sm-6 col-md-6 col-lg-6">
+              <h1 >Join our Blood Donation Group. Donate Today,<br/> to save a life</h1>
+              <Link to="/BloodDform"><button className="Donatebutton"   style={{
+                  color: "#fff",
+                  background: "rgb(127, 180, 50)",
+                  border: "1px solid black",
+                  borderRadius: "5px",
+                  padding: "10px 20px",
+                  boxShadow: "0px 0px 5px grey",
+                  marginTop:"50px"
+                }}>Donate</button></Link>
+            </div>
+            <div className="col-sm-6 col-md-6 col-lg-6">
+              <img src={ blood} alt="melo" style={{width:"500px", height:"400px"}}/>
+            </div>
+            {/* <div className="col-md-2 col-sm-2 col-lg-2"></div> */}
+          </div>
+        </section>
         <div className="testimonials">
           <div className="row">
             <div className="col-md-12 col-sm-12 col-lg-12">
@@ -125,7 +152,7 @@ const Home = () => {
                   fontWeight: "bold",
                 }}
               />{" "}
-              <h5> what people say about us </h5> <UncontrolledExample />
+              <h5> what peop le say about us </h5> <UncontrolledExample />
             </div>{" "}
           </div>{" "}
         </div>{" "}

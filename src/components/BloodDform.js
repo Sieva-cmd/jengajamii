@@ -1,51 +1,13 @@
-import "./DonationForm.css";
-
-const Donation = () => {
+import "./BloodDform.css";
+const BloodDform = () => {
   return (
     <div className="container">
       <div className="row">
         <div className="col-md-7 col-sm-7 col-lg-7">
           <form className="formDonation">
             <h3 style={{ marginTop: "5rem", marginBottom: "5rem" }}>
-              Donation Form
+              Blood Donation Form
             </h3>
-            <div class="mb-3">
-              <label for="exampleDataList" class="form-label">
-                Donate to
-              </label>
-              <input
-                class="form-control"
-                list="datalistOptions"
-                id="exampleDataList"
-                placeholder="Donate To..."
-              />
-              <datalist id="datalistOptions">
-                <option value="schools" />
-                <option value="orphanages" />
-                <option value="prison" />
-                <option value="society" />
-                <option value="hospitals " />
-                <option value="refugees"/>
-              </datalist>
-            </div>
-            <div class="mb-3">
-              <label for="exampleDataList" class="form-label">
-                What to Donate
-              </label>
-              <input
-                class="form-control"
-                list="datalistOptions2"
-                id="exampleDataList2"
-                placeholder="Donation Type"
-              />
-              <datalist id="datalistOptions2">
-                <option value="Food" />
-                <option value="Clothes" />
-                <option value="Sanitary pads" />
-                <option value="School stationery" />
-                <option value="Money" />
-              </datalist>
-            </div>
             <div className="mb-3">
             <label for="exampleDataList" class="form-label">
               Enter Name
@@ -80,7 +42,58 @@ const Donation = () => {
                 aria-label="Phone Number"
               />
             </div>
-
+            <div className="mb-3">
+            <label for="exampleDataList" class="form-label">
+              Location
+              </label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="County of resindence"
+                aria-label="County"
+              />
+            </div>
+            <div className="mb-3">
+            <label for="exampleDataList" class="form-label">
+              Hospital
+              </label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Hospital"
+                aria-label="Hospital"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleDataList" class="form-label">
+                Blood Type
+              </label>
+              <input
+                class="form-control"
+                list="datalistOptions"
+                id="exampleDataList"
+                placeholder="Blood Type"
+              />
+              <datalist id="datalistOptions">
+                <option value="O+ve" />
+                <option value="O-ve" />
+                <option value="A" />
+                <option value="B" />
+                <option value="AB" />
+                <option value="Not sure"/>
+              </datalist>
+            </div>
+            <div className="mb-3">
+            <label for="exampleDataList" class="form-label">
+              Donation Date
+              </label>
+              <input
+                class="form-control"
+                type="date"
+                placeholder="donation date"
+                aria-label="donation date"
+              />
+            </div>
             <button
               className="submitBtn"
               type="submit"
@@ -103,4 +116,4 @@ const Donation = () => {
     </div>
   );
 };
-export default Donation;
+export default BloodDform
